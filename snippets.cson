@@ -1,0 +1,64 @@
+'.js':
+	'm("h1")':
+		'prefix': 'mh1'
+		'body': 'm(\'h1$1\', {$2}, [$3])$4'
+	'm("h2")':
+		'prefix': 'mh2'
+		'body': 'm(\'h2$1\', {$2}, [$3])$4'
+	'm("h3")':
+		'prefix': 'mh3'
+		'body': 'm(\'h3$1\', {$2}, [$3])$4'
+	'm("h4")':
+		'prefix': 'mh4'
+		'body': 'm(\'h4$1\', {$2}, [$3])$4'
+	'm("h5")':
+		'prefix': 'mh5'
+		'body': 'm(\'h5$1\', {$2}, [$3])$4'
+	'm("h6")':
+		'prefix': 'mh6'
+		'body': 'm(\'h6$1\', {$2}, [$3])$4'
+	'm("em")':
+		'prefix': 'mem'
+		'body': 'm(\'em$1\', {$2}, [$3])$4'
+	'm("strong")':
+		'prefix': 'mstrong'
+		'body': 'm(\'strong$1\', {$2}, [$3])$4'
+	'm("ol")':
+		'prefix': 'mol'
+		'body': 'm(\'ol$1\', {$2}, [$3])$4'
+	'm("br")':
+		'prefix': 'mbr'
+		'body': 'm(\'br$1\')$2'
+	'm("img")':
+		'prefix': 'mimg'
+		'body': 'm(\'img$1\', {$2})$3'
+	'm("span")':
+		'prefix': 'mspan'
+		'body': 'm(\'span$1\', {$2}, [$3])$4'
+	'm("a")':
+		'prefix': 'ma'
+		'body': 'm(\'a$1\', {$2}, [$3])$4'
+	'm("table")':
+		'prefix': 'mtable'
+		'body': 'm(\'table$1\', {$2}, [$3])$4'
+	'm("tr")':
+		'prefix': 'mtr'
+		'body': 'm(\'tr$1\', {$2}, [$3])$4'
+	'm("th")':
+		'prefix': 'mth'
+		'body': 'm(\'th$1\', {$2}, [$3])$4'
+	'm("td")':
+		'prefix': 'mtd'
+		'body': 'm(\'td$1\', {$2}, [$3])$4'
+	'm("p")':
+		'prefix': 'mp'
+		'body': 'm(\'p$1\', {$2}, [$3])$4'
+	'm("div")':
+		'prefix': 'mdiv'
+		'body': 'm(\'div$1\', {$2}, [$3])$4'
+	'm("ul")':
+		'prefix': 'mul'
+		'body': 'm(\'ul$1\', {$2}, [$3])$4'
+	'm("li")':
+		'prefix': 'mli'
+		'body': 'm(\'li$1\', {$2}, [$3])$4'
