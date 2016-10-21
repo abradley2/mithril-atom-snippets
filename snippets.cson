@@ -29,6 +29,12 @@
 	'm("br")':
 		'prefix': 'mbr'
 		'body': 'm(\'br$1\')$2'
+	'm("button")':
+		'prefix': 'mbutton'
+		'body': 'm(\'button$1\', {$2}, [$3])$4'
+	'm("input")':
+		'prefix': 'minput'
+		'body': 'm(\'input$1\', {$2})$3'
 	'm("img")':
 		'prefix': 'mimg'
 		'body': 'm(\'img$1\', {$2})$3'
